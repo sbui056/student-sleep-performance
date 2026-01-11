@@ -188,3 +188,7 @@ data/*.sq*
 data/*/*.sq*
 data/*.SQ*
 data/*/*.SQ*
+
+00-ProjectProposal.ipynb
+01-DataCheckpoint.ipynb
+02-EDACheckpoint.ipynb
