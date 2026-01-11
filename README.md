@@ -1,17 +1,29 @@
-This is your group repo for your final project for COGS108.
+# Sleep Habits and Academic Success
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+## Why This Matters
+Sleep is often assumed to be a major driver of academic success. This project tests whether that assumption holds up when analyzing real student data.
 
-Template notebooks for each component are provided. The numbers on the notebook filenames provides the order things are due.  See the syllabus for the due dates in your quarter.
+## Research Question
+Do students' sleep habits meaningfully predict academic performance?
 
-You will be graded based solely on the numbered Jupyter notebooks in this repository.  You will recieve your grade and feedback on how to improve via GitHub Issues on this repository. 
+## Data & Methods
+- Self-reported survey data on sleep habits and academic behaviors  
+- Large academic performance dataset (~5,000 records)  
+- Correlation analysis, regression models, quartile comparisons, and visualizations  
 
-We have created a suggested organization for your repo, including directory structures for storing `./data`, `./results`, and for creating `./modules` that your notebooks can import. 
+## Key Findings
+- Poor sleep is strongly linked to fatigue, concentration problems, and missed classes  
+- Sleep variables show weak or inconsistent relationships with grades  
+- Sleep duration has little to no correlation with exam or course scores  
+- Regression models show minimal predictive power from sleep alone  
 
-Its worth noting that `./data` is for storing local copies of the data, but by default this repo is configured to **not** allow you to store common datafiles in GitHub.  This is because GitHub has low limits on maximum file and repo size.  So instead you would download your data direct from its original provider or from your personal cloud storage. There are scripts inside some of the notebooks to download data from any URL to `./data`.  If you wish to remove this limitation and store small data files directly in your GitHub you should edit your `.gitignore` file.
+## Takeaway
+Sleep clearly affects day-to-day functioning, but in our data it was not a reliable predictor of graded academic performance. Academic outcomes appear to depend more on factors like study habits, assessment structure, and coursework design.
 
-But this is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files anywhere you want, etc. So long as there are the four numbered Jupyter notebooks in place on the due dates with the required information, the rest is up to you. 
+## Limitations
+- Heavy reliance on self-reported data  
+- Noisy and uneven distributions  
+- Limited ability to capture long-term effects of sleep  
 
-At the final project date there is an option to make your final project visible to others.  If you choose this option your repo will become publicly visible. 
-
-Also, you are encouraged to share this project after the course and to add it to your portfolio. If your repo is public you may fork it. If it is private you may follow [these instructions](https://docs.google.com/document/d/1_PP-vlsyWjNegGGsmeDB5B-ltjYW1Db14q9dx3HM9e4/edit?usp=sharing)
+## Future Work
+Future studies should use objective sleep measurements, larger samples, and stronger study designs to better isolate the role of sleep in academic performance.
